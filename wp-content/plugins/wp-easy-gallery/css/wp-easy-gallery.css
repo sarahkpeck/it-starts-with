@@ -1,0 +1,6 @@
+.wp-easy-gallery {position: relative;display: inline-block;}
+.wp-easy-gallery img {border: 0; display: inline-block;}
+.wp-easy-gallery:hover img {opacity: .75;}
+
+.wp-easy-gallery p {display: inline-block; visibility: hidden; position: relative; bottom: 8px; left: 0px; background-color: #000000; color: #ffffff; opacity: .85;}
+.wp-easy-gallery:hover p {visibility: visible;}

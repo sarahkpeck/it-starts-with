@@ -1,0 +1,46 @@
+# Selective inclusion of wp-content
+wp-content/backup/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/uploads/*
+wp-content/themes/twenty*
+
+# Include these files in previously blocked directories
+!wp-content/uploads/.htaccess
+
+# Keep these files out of the repo
+sql/
+wp-admin/
+wp-config.php
+wp-includes/
+wp-activate.php
+wp-atom.php
+wp-blog-header.php
+wp-comments-post.php
+wp-commentsrss2.php
+wp-config-sample.php
+wp-cron.php
+wp-feed.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-pass.php
+wp-rdf.php
+wp-rss.php
+wp-rss2.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+quickstart.html
+index.php
+error_log
+
+# Hidden files
+*.DS_Store
+*[Tt]humbs.db
+*.sass-cache*
+*~imageoptim*
+sitemap.xml
+sitemap.xml.gz
